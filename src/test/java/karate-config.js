@@ -9,27 +9,29 @@ function fn() {
 
    var config = {
 
-//   api {
-// env: env,
-//    /*api_base_url: 'https://ztrain-shop.herokuapp.com',*/
-//    product: '61efb02b4e23dc71cab1331b'
+//    api {
+//          env: env,
+//          api_base_url: 'https://ztrain-shop.herokuapp.com',
+//          product: '61efb02b4e23dc71cab1331b'
 //   }
       web: {
-//        navigateur: {type: 'chrome'},
-//        zenityIntranetUrl: 'https://intranet-test.zenity-test.fr',
-//        identifiant: 'tgalarneau@zenity.fr',
-//        motdepasse: 'Motdepasse1',
-//        nom: 'Galarneau'
-      },
-      mobile: {
+             navigateur: {type: 'chrome'},
+             webUrl:'https://github.com/login',
+             zenityIntranetUrl: 'https://intranet-test.zenity-test.fr',
+             identifiant: 'tgalarneau@zenity.fr',
+             motdepasse: 'Motdepasse1',
+             nom: 'Galarneau'
+             },
+
+//     mobile: {
 //        driverCaps: {
 //          "platformName": "Android",
-//          "platformVersion": "9.0",
+//         "platformVersion": "9.0",
 //          "deviceName": "emulator-5554",
 //          "browserName": "Chrome",
 //          "connectHardwareKeyboard": true
-//        }
-      }
+//       }
+//      }
     }
 
 //  if (env == 'dev') {

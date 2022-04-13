@@ -7,6 +7,9 @@ public class WebRunner {
     @Karate.Test
     Karate testWebUiTest() {
         System.setProperty("karate.env", "test");
-        return Karate.run("web").relativeTo(getClass());
+        return Karate.run().relativeTo(getClass());
+//                .run("web").relativeTo(getClass())
+//                .run("zenityIntranet").relativeTo(getClass());
+
     }
 }

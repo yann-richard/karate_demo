@@ -1,7 +1,7 @@
 Feature:
 
   Background:
-    * configure driver = { type: 'chrome', showDriverLog: true }
+#    * configure driver = { type: 'chrome', showDriverLog: true }
 #    * configure driver = { type: 'chrome' }
     # * configure driverTarget = { docker: 'ptrthomas/karate-chrome', showDriverLog: true }
   # * configure driverTarget = { docker: 'justinribeiro/chrome-headless', showDriverLog: true }
@@ -13,7 +13,7 @@ Feature:
 
   Scenario: try to login to github and then do a google search
 
-    Given driver 'https://github.com/login'
+    Given driver web.webUrl
     And input('#login_field', 'dummy')
     And input('#password', 'world')
     When submit().click("input[name=commit]")
