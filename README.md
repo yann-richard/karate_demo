@@ -1,1 +1,1 @@
-# ztrain-api-test-automation
+# Karate_demo_template , In this repository we have edited a demo project on the karate test framework, the project should eventually carry out a demo of karate on the axes (API, web, mobile) testing in one all in one, Thank you for your attention!
