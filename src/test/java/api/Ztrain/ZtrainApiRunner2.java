@@ -2,12 +2,12 @@ package api.Ztrain;
 
 import com.intuit.karate.junit5.Karate;
 
-class ZtrainApiRunner {
+class ZtrainApiRunner2 {
 
     @Karate.Test
     Karate testUsers() {
         return new Karate()
-                .run("ZTrainFunctional").relativeTo(getClass());
+                .run("ZTrain_UserThreat").relativeTo(getClass());
 
     }
 
