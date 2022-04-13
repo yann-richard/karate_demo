@@ -31,10 +31,13 @@ class RunAllTest {
     public static void makeCucumberReport() {
         File reportOutputDirectory = new File("target");
         List<String> jsonFiles = new ArrayList<>();
+        jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\ui.web.web.json");
         jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\ui.web.zenityIntranet.json");
-        jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\ui.mobile.android.zenityIntranetAndroid.json");
-        jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\api.users.json");
-        jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\api.usersFail.json");
+      /*  jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\ui.mobile.android.zenityIntranetAndroid.json");*/
+        jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\api.Ztrain.ZTrain_UserThreat.json");
+        jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\api.Ztrain.ZTrainFunctional.json");
+        jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\api.Other.usersOtherApi.json");
+        jsonFiles.add(System.getProperty("user.dir")+"\\target\\surefire-reports\\api.Other.userToken.json");
 
         String projectName = "Karate_demo";
         Configuration configuration = new Configuration(reportOutputDirectory, projectName);
