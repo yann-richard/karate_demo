@@ -1,4 +1,4 @@
-Feature: api test connexion
+Feature: reqres_in_api test connexion
 
   Background:
     * url 'https://reqres.in/api'

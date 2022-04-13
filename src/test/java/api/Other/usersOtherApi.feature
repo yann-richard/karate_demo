@@ -1,4 +1,4 @@
-Feature:
+Feature: typicode.com_API Users_Test
 
 
   Background:

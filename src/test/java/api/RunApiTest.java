@@ -11,7 +11,7 @@ class RunApiTest {
     void testParallel() {
         Results results = Runner.path("classpath:api")
                 //.outputCucumberJson(true)
-                .parallel(5);
+                .parallel(10);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
 

@@ -1,5 +1,4 @@
-#This Feature Use Background for connection
-#For before launch this you should comment karate callSingle in karate-config.js
+
 Feature: Ztrain API Automation
 
   Background:
